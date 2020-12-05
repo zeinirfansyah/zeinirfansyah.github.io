@@ -291,7 +291,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/Sketch.png);
+	background-image: url(./img/bg.jpg);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -361,8 +361,11 @@ p {
 	justify-content: center;
 	flex-direction: column;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	/* background-image: linear-gradient( 60deg, #29323cb2 0%, #485563b0 100% ), url(./img/bg.jpg); */
+	background-size: cover;
 	color: white;
 }
+
 #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
