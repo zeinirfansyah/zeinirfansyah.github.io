@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 style="font-size: 60px; text-align: center;">Python</h1>
+    <p style="font-size: 15px; text-align: center;">Mentor : Zein Irfansyah</p>
+    <p style="font-size: 15px; text-align: center;">Tanggal dibuat : Desember 2020</p>
+
+    <div class="content-video">
+        <div class="tab">
+            <h1 style="font-size: 36px;">JUDUL</h1>
+            <h2>sub-judul</h2>
+            <hr>
+            <button class="tablinks" onclick="openCity(event, 'Conten1')" id="defaultOpen">Conten1</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten2')">Conten2</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten3')">Conten3</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten4')">Conten4</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten5')">Conten5</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten2')">Conten6</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten3')">Conten7</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten4')">Conten8</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten5')">Conten9</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten2')">Conten10</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten3')">Conten11</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten4')">Conten12</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten5')">Conten13</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten2')">Conten14</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten3')">Conten15</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten4')">Conten16</button>
+            <button class="tablinks" onclick="openCity(event, 'Conten5')">Conten17</button>
+        </div>
+
+        <div id="Conten1" class="tabcontent">
+            <iframe width="480px" height="270px" src="https://www.youtube.com/embed/1sWqx3TT3kM" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
+                allowfullscreen>
+            </iframe>
+            <hr style="margin-top: 20px;">
+            <h1 style="font-size: 30px; margin: 10px 0px;">Introduction</h1>
+            <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolores quos
+                esse repellendus maxime. Magni doloribus soluta deleniti tempora saepe nihil totam quisquam, ex
+                similique inventore recusandae id in qui!</p>
+        </div>
+
+        <div id="Conten2" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten3" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten4" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten5" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten6" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten7" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten8" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten9" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten10" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten11" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten12" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten13" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten14" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten15" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten16" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+        <div id="Conten17" class="tabcontent">
+            <h1>Content</h1>
+            <p>Konten belum rilis</p>
+        </div>
+
+    </div>
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+</body>
+
+</html>
