@@ -35,7 +35,7 @@
                      }
                      else {
                         if ($username == "zeinirfansyah" && $password == "Zein123") {
-                            header("Location: Dashboard.html");
+                            header("Location: Dashboard.php");
                         }
                         else {
                             $Error = "Kode aksesnya gak cocok nih";

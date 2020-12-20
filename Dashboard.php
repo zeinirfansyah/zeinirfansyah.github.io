@@ -17,7 +17,7 @@
         <div class="nav-list">
           <div class="hamburger"><div class="bar"></div></div>
           <ul>
-            <li><a href="index.html" data-after="Skill">Keluar</a></li>
+            <li><a href="index.php" data-after="Skill">Keluar</a></li>
           </ul>
         </div>
       </div>
@@ -37,19 +37,19 @@
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
           <h2>Photoshop</h2>
           <p>Mempelajar skill desain grafis secara mendalam dengan Adobe Photoshop.</p>
-          <a href="Dashboard.html" type="button" class="cta_kelas">Belum tersedia</a>
+          <a href="Dashboard.php" type="button" class="cta_kelas">Belum tersedia</a>
         </div>
         <div class="skill-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
           <h2>Python</h2>
           <p>Mempelajar skill programming dari level beginner hingga advanced.</p>
-          <a href="Python.html" type="button" class="cta_kelas">Masuk kelas</a>
+          <a href="Python.php" type="button" class="cta_kelas">Masuk kelas</a>
         </div>
         <div class="skill-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
           <h2>Statistika</h2>
           <p>Mempelajar skill statistika dan probabilitas untuk keperluan data science.</p>
-          <a href="Dashboard.html" type="button" class="cta_kelas">Belum tersedia</a>
+          <a href="Dashboard.php" type="button" class="cta_kelas">Belum tersedia</a>
         </div>
       </div>
     </div>

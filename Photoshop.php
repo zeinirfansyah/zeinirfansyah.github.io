@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Maaf cuy, kelas ini belum ada!</h1>
-    <h2><a href="Dashboard.html">Balik lagi ke Dashboard</a></h2>
+    <h2><a href="Dashboard.php">Balik lagi ke Dashboard</a></h2>
 </body>
 </html>

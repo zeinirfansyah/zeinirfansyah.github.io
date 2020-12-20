@@ -19,8 +19,8 @@
             <div class="nav-list">
               <div class="hamburger"><div class="bar"></div></div>
               <ul>
-                <li><a href="Dashboard.html" data-after="Skill">Dashboard</a></li>
-                <li><a href="index.html" data-after="Skill">Keluar</a></li>
+                <li><a href="Dashboard.php" data-after="Skill">Dashboard</a></li>
+                <li><a href="index.php" data-after="Skill">Keluar</a></li>
               </ul>
             </div>
           </div>
