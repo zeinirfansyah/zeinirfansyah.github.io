@@ -76,7 +76,7 @@
                 <span class="error"> <?php echo $passwordErr; ?></span>
                 <input id="submit" type="submit" name="submit" value="LOGIN" />
                 <span class="error"> <?php echo $Error; ?></span>
-                <p>Jika belum punya kode akses, silakan minta akses pada owner! (DM ig : <a href="instagram.com/zeinirfansyah">@zeinirfansyah</a></p>
+                <p>Jika belum punya kode akses, silakan minta akses pada owner! (DM ig : @zeinirfansyah)</p>
             </form>
         </div>
     </div>
