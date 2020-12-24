@@ -1,82 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
-    <title>Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: #7698cf;
+    font-size: 20px
+}
+p {
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+
+.sidenav {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  padding-top: 30px;
+  margin-top: 58px;
+}
+
+.sidenav h1 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.sidenav a {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.sidenav a:hover {
+  background-color: #FFC000;
+}
+
+iframe {
+  margin-left: 25%; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.navbar {
+  overflow: hidden;
+  background-image: linear-gradient(60deg, #FFC000 0%, #ffc400 100%);;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ff8800;
+  color: black;
+}
+
+.navright {
+  float: right;
+}
+
+.profil{
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 50px;
+  }
+
+.profil img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+</style>
 </head>
 <body>
-    <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#zein"><h1><span>Zen</span> Education</h1></a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger"><div class="bar"></div></div>
-          <ul>
-            <li><a href="index.php" data-after="Skill">Keluar</a></li>
-          </ul>
-        </div>
-      </div>
+<div class="navbar">
+  <a href="Dashboard.php"><h2>Zen Education</h2></a>
+  <div class="navright">
+    <a href="index.php"><h2>LOGOUT</h2></a>
+  </div>
+</div>
+
+<div class="sidenav">
+    <div class="profil">
+      <img src="img/avatar.png" alt="">
+      <h1>Welcome to Zen Ed!</h1>
     </div>
-  </section>
-  <!-- End Header -->
-    
-  <!-- Service Section -->
-  <section id="Skills">
-    <div class="Skills container">
-      <div class="skill-top">
-        <h1 class="section-title">Welcome!</h1>
-        <h1 style=" font-size: 20px">Mau belajar apa hari ini?</h1>
-      </div>
-      <div class="skill-bottom">
-        <div class="skill-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
-          <h2>Photoshop</h2>
-          <p>Mempelajar skill desain grafis secara mendalam dengan Adobe Photoshop.</p>
-          <a href="Dashboard.php" type="button" class="cta_kelas">Belum tersedia</a>
-        </div>
-        <div class="skill-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
-          <h2>Python</h2>
-          <p>Mempelajar skill programming dari level beginner hingga advanced.</p>
-          <a href="Python.php" type="button" class="cta_kelas">Masuk kelas</a>
-        </div>
-        <div class="skill-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
-          <h2>Statistika</h2>
-          <p>Mempelajar skill statistika dan probabilitas untuk keperluan data science.</p>
-          <a href="Dashboard.php" type="button" class="cta_kelas">Belum tersedia</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Service Section -->
-  
-  <!-- Footer -->
-  <section id="footer">
-    <div class="footer container">
-      <div class="brand"><h1><span>Zein</span> Irfansyah</h1></div>
-      <h2>Machine Learning Developer</h2>
-      <div class="social-icon">
-        <div class="social-item">
-          <a href="https://instagram.com/zeinirfansyah" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
-        </div>
-        <div class="social-item">
-          <a href="https://twitter.com/zeinirfansyah" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"/></a>
-        </div>
-        <div class="social-item">
-          <a href="https://www.linkedin.com/in/zein-irfansyah-2421081a5" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png"/></a>
-        </div>
-      </div>
-      <p>Copyright © 2020 Zein Irfansyah. All rights reserved</p>
-    </div>
-  </section>
-  <!-- End Footer -->
-  <!-- End Contact Section -->
+    <hr>
+    <a href="DashboardMain.php" target="frameMain" id="defaultOpen">Dashboard</a>
+    <hr>
+    <a href="www.instagram.com/zeinirfansyah" target="frameMain">Contact</a>
+    <hr>
+    <a href="about.php" target="frameMain">About</a>
+    <hr>
+</div>
+<iframe src="" name="frameMain" frameborder="0" style="position: fixed; height: 100%; width: 75%; border: none; margin-top: 60px;"></iframe>
+
+<script>
+document.getElementById("defaultOpen").click();
+</script>
 
 </body>
-</html>
+</html> 

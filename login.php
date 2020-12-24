@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleform.css">
-    <title>Document</title>
-    <script>
-        <?php
+	<title>Login Zed Ed</title>
+	<link rel="stylesheet" type="text/css" href="css/style_login.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<script>
+		<?php
             $usernameErr = "";
             $username = "";
             $password = "";
@@ -16,29 +15,29 @@
 
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 if(empty($_POST["username"])) {
-                    $usernameErr = "* Isi dulu cuy";
+                    $usernameErr = " Username harus diisi cuy!";
                 }
                 else {
                     $username = test_input($_POST["username"]);
                     if (!preg_match ("/^[a-zA-Z0-9]+$/", $username)) {
-                        $usernameErr = "* Coba lagi cuy";
+                        $usernameErr = " Terjadi kesalahan saat input username";
                      }
                 }
 
                 if (empty($_POST["password"])) {
-                    $passwordErr = "* Isi dulu cuy";
+                    $passwordErr = " Password harus diisi cuy!";
                 }
                 else {
                     $password = test_input($_POST["password"]);
                     if (!preg_match ("/^[a-zA-Z0-9]+$/", $password)) {
-                        $passwordErr = "Coba lagi cuy";
+                        $passwordErr = " Terjadi kesalahan saat input password";
                      }
                      else {
                         if ($username == "zeinirfansyah" && $password == "Zein123") {
                             header("Location: Dashboard.php");
                         }
                         else {
-                            $Error = "Kode aksesnya gak cocok nih";
+                            $Error = " Kode aksesnya gak cocok nih, coba minta akses sama owner";
                         }
                      }
                 }
@@ -52,34 +51,42 @@
                 return $data;
             }
         ?>
-    </script>
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
-    <div id="Login">
-        <div id="Login-content">
-            <div id="judul-Login">
-                <h2>Sign in</h2>
-            </div>
-            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>" class="form">
-                <label for="username">
-                    Kode akses
-                </label>
-                <input id="username" class="kolom" type="text" name="username" value="<?php echo $username; ?>">
-                <div class="garisbawah"></div>
-                <span class="error"> <?php echo $usernameErr; ?></span>
-                <label for="password">
-                    Password
-                </label>
-                <input id="password" class="kolom" type="password" name="password" value="<?php echo $password; ?>">
-                <div class="garisbawah"></div>
-                <span class="error"> <?php echo $passwordErr; ?></span>
-                <input id="submit" type="submit" name="submit" value="LOGIN" />
-                <span class="error"> <?php echo $Error; ?></span>
-                <p>Jika belum punya kode akses, silakan minta akses pada owner! (DM ig : @zeinirfansyah)</p>
+    <div class="navbar">
+		<a href="index.php"><h2>Kembali</h2></a>
+	</div>
+
+	<img class="GambarBackground" src="img/GambarBackground.png">
+	<div class="container">
+		<div class="img">
+			<img src="img/bg.png">
+		</div>
+		<div class="login">
+			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>" class="form">
+				<img src="img/avatar.png">
+				<h2 class="title">Hallo Pejuang!</h2>
+           		<div class="div-input username_input">
+				   <span class="error"> <?php echo $usernameErr; ?></span>
+           		   <div class="div">
+						<input type="text" class="input" placeholder="Kode Akses" id="username" name="username" value="<?php echo $username; ?>"> 
+					</div>
+					<div class="garisbawah"></div>   
+           		</div>  
+				<div class="div-input pasword_input">
+					<span class="error"> <?php echo $passwordErr; ?></span>
+           		   <div class="div">
+           		    	<input type="password" class="input" placeholder="Password" id="password" name="password" value="<?php echo $password; ?>">
+					</div>
+					<div class="garisbawah"></div>
+            	</div>
+            	<a href="http://instagram.com/zeinirfansyah">Minta kode akses</a>
+				<input class="btn" id="submit" type="submit" name="submit" value="LOGIN">
+				<span class="error"> <?php echo $Error; ?></span>
             </form>
         </div>
     </div>
 </body>
-
 </html>
