@@ -54,32 +54,32 @@
 		<tr align="center">
 			<td>Coding</td>
 			<td>Python for Data Science</td>
-			<td><a href="python.php"><b>Kunjungi Kelas</b></a></td>
+			<td><a href="python.php" target="blank"><b>Kunjungi Kelas</b></a></td>
 		</tr>
 		<tr align="center">
 			<td>Coding</td>
 			<td>Algorithm with C++</td>
-			<td><a href="cpp.php"><b>Kunjungi Kelas</b></a></td>
+			<td><a href="cpp.php" target="blank"><b>Kunjungi Kelas</b></a></td>
 		</tr>
 		<tr align="center">
 			<td>Graphic Design</td>
 			<td>Adobe Illustrator</td>
-			<td><a href="illustrator.php"><b>Kunjungi Kelas</b></a></td>
+			<td><a href="illustrator.php" target="blank"><b>Kunjungi Kelas</b></a></td>
 		</tr>
 		<tr align="center">
 			<td>Graphic Design</td>
 			<td>Adobe Photoshop</td>
-			<td><a href="photoshop.php"><b>Kunjungi Kelas</b></a></td>
+			<td><a href="photoshop.php" target="blank"><b>Kunjungi Kelas</b></a></td>
 		</tr>
 		<tr align="center">
 			<td>Science</td>
 			<td>Statistic for Machine Learning</td>
-			<td><a href="statistic.php"><b>Kunjungi Kelas</b></a></td>
+			<td><a href="statistic.php" target="blank"><b>Kunjungi Kelas</b></a></td>
 		</tr>
 		<tr align="center">
 			<td>Science</td>
 			<td>Linier Algebra</td>
-			<td><a href="Algebra.php"><b>Kunjungi Kelas</b></a></td>
+			<td><a href="Algebra.php" target="blank"><b>Kunjungi Kelas</b></a></td>
 		</tr>
 	</table>
 </body>

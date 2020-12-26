@@ -129,7 +129,7 @@ p {
 
   <hr>
 
-  <iframe src="" name="frame" frameborder="0" height="400px" width="100%"></iframe>
+  <iframe src="" name="frame" frameborder="0" height="360px" width="100%"></iframe>
 
   <hr>
   <script>

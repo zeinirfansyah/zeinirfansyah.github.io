@@ -91,7 +91,7 @@ a{
 }
 
 a:hover{
-	color: #38d39f;
+	color: #e73002;
 }
 
 .btn{
@@ -117,17 +117,17 @@ a:hover{
 
 .navbar {
 	overflow: hidden;
-	background-image: linear-gradient(#FFC000, #ecc13d);
+	background-color: rgba(0, 0, 0, 0.568);
 	position: fixed;
 	top: 0;
 	width: 100%;
   }
   
-  .navbar a {
+.navbar a {
 	margin-right: 50px;
 	float: right;
 	display: block;
-	color: black;
+	color: #ffffff;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -135,15 +135,13 @@ a:hover{
   }
   
   .navbar a:hover {
-	background: #ffd559;
-	color: rgb(56, 56, 56);
+	color: #FFC000
   }
 
   .navbar {
 	  float: right;
 	  margin-right: 20px;
   }
-
 @media screen and (max-width: 1050px){
 	.container{
 		grid-gap: 5rem;

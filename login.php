@@ -82,7 +82,7 @@
 					</div>
 					<div class="garisbawah"></div>
             	</div>
-            	<a href="http://instagram.com/zeinirfansyah">Minta kode akses</a>
+            	<a href="http://instagram.com/zeinirfansyah">Minta kode akses (via DM IG)</a>
 				<input class="btn" id="submit" type="submit" name="submit" value="LOGIN">
 				<span class="error"> <?php echo $Error; ?></span>
             </form>

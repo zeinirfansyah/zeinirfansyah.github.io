@@ -80,7 +80,7 @@ iframe {
 
 .navbar {
   overflow: hidden;
-  background-image: linear-gradient(60deg, #FFC000 0%, #ffc400 100%);;
+  background-color: rgba(0, 0, 0, 0.568);
   position: fixed;
   top: 0;
   width: 100%;
@@ -89,7 +89,7 @@ iframe {
 .navbar a {
   float: left;
   display: block;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -97,8 +97,7 @@ iframe {
 }
 
 .navbar a:hover {
-  background: #ff8800;
-  color: black;
+  color: #FFC000
 }
 
 .navright {
