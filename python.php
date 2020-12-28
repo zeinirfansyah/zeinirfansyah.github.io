@@ -154,9 +154,9 @@
                         <iframe width="480px" height="270px" src="https://www.youtube.com/embed/iA8lLwmtKQM?list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <hr style="margin-top: 20px;">
                         <h1 style="font-size: 30px; margin: 10px 0px;">Episode 01 - Introduction</h1>
-                        <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolores quos
-                            esse repellendus maxime. Magni doloribus soluta deleniti tempora saepe nihil totam quisquam, ex
-                            similique inventore recusandae id in qui!</p>
+                        <p style="font-size: 15px;">Pada episode kali ini, kita akan mempelajari pengenalan dari bahasa pemrograman python,
+                        serta konsep compiler dan interpreter yang mana sangat penting untuk mempelajari proses eksekusi suatu bahasa
+                        pemrograman. Pastikan anda mengikuti video dengan baik.</p>
                     </div>
             
                     
@@ -165,18 +165,16 @@
                         <iframe width="480px" height="270px" src="https://www.youtube.com/embed/OSmaWPSgvTQ?list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <hr style="margin-top: 20px;">
                         <h1 style="font-size: 30px; margin: 10px 0px;">Episode 02 - Installasi Python & VSCode</h1>
-                        <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolores quos
-                            esse repellendus maxime. Magni doloribus soluta deleniti tempora saepe nihil totam quisquam, ex
-                            similique inventore recusandae id in qui!</p>
+                        <p style="font-size: 15px;">Pada episode kali ini, kita akan mempelajari Bagaimana cara menginstall Python dan text editor
+                        khususnya Visual Studio Code agar kita bisa menggunakan Python pada device komputer kita. Pastikan anda mengikuti video dengan baik.</p>
                     </div>
             
                     <div id="Conten3" class="tabcontent">
                         <iframe width="480px" height="270px" src="https://www.youtube.com/embed/-auWrbiaoGc?list=PLZS-MHyEIRo59lUBwU-XHH7Ymmb04ffOY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <hr style="margin-top: 20px;">
                         <h1 style="font-size: 30px; margin: 10px 0px;">Episode 03 - Cara Kerja Program & Bytecode</h1>
-                        <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolores quos
-                            esse repellendus maxime. Magni doloribus soluta deleniti tempora saepe nihil totam quisquam, ex
-                            similique inventore recusandae id in qui!</p>
+                        <p style="font-size: 15px;">Pada episode kali ini, kita akan mempelajari cara kerja dari program beserta bytecode untuk
+                        lebih memahami bagaimana program dieksekusi oleh komputer. Pastikan anda mengikuti video dengan baik.</p>
                     </div>
             
                     <div id="Conten3" class="tabcontent">

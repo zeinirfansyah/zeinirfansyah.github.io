@@ -46,7 +46,7 @@
 	<h1>Riwayat Konsultasi</h1>
 	<table border="1" align="center">
 		<tr align="center">
-			<th>Kode Kelas</th>
+			<th>Kode Video</th>
 			<th>Judul Pertanyaan</th>
 			<th>Pertanyaan</th>
 			<th colspan="2">Action</th>

@@ -134,9 +134,9 @@ iframe {
     <hr>
     <a href="DashboardMain.php" target="frameMain" id="defaultOpen">Dashboard</a>
     <hr>
-    <a href="www.instagram.com/zeinirfansyah" target="frameMain">Contact</a>
+    <a href="Contact.php" target="frameMain">Contact</a>
     <hr>
-    <a href="about.php" target="frameMain">About</a>
+    <a href="About.php" target="frameMain">About</a>
     <hr>
 </div>
 <iframe src="" name="frameMain" frameborder="0" style="position: fixed; height: 100%; width: 75%; border: none; margin-top: 60px;"></iframe>

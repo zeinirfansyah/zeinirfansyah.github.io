@@ -154,9 +154,8 @@
                     <iframe width="480px" height="270px" src="https://www.youtube.com/embed/MXaJ7sa7q-8?list=PL0KQuRyPJoe6KjlUM6iNYgt8d0DwI-IGR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <hr style="margin-top: 20px;">
                         <h1 style="font-size: 30px; margin: 10px 0px;">Episode 01 - Introduction</h1>
-                        <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolores quos
-                            esse repellendus maxime. Magni doloribus soluta deleniti tempora saepe nihil totam quisquam, ex
-                            similique inventore recusandae id in qui!</p>
+                        <p style="font-size: 15px;">Pada episode kali ini, kita akan mempelajari pengenalan dari ilmu dasar statistika  
+                        untuk machine learning atau data science. Pastikan anda mengikuti video dengan baik.</p>
                     </div>
             
                     
@@ -165,18 +164,16 @@
                     <iframe width="480px" height="270px" src="https://www.youtube.com/embed/mk8tOD0t8M0?list=PL0KQuRyPJoe6KjlUM6iNYgt8d0DwI-IGR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <hr style="margin-top: 20px;">
                         <h1 style="font-size: 30px; margin: 10px 0px;">Episode 02 - Visualization</h1>
-                        <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolores quos
-                            esse repellendus maxime. Magni doloribus soluta deleniti tempora saepe nihil totam quisquam, ex
-                            similique inventore recusandae id in qui!</p>
+                        <p style="font-size: 15px;">Pada episode kali ini, kita akan mempelajari cara cara membuat visualisasi data dengan chart,
+                        histogram, poligon, dan grafik. Pastikan anda mengikuti video dengan baik.</p>
                     </div>
             
                     <div id="Conten3" class="tabcontent">
                     <iframe width="480px" height="270px" src="https://www.youtube.com/embed/mk8tOD0t8M0?list=PL0KQuRyPJoe6KjlUM6iNYgt8d0DwI-IGR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <hr style="margin-top: 20px;">
                         <h1 style="font-size: 30px; margin: 10px 0px;">Episode 03 - Mode, Mean, Median, Standard Deviation</h1>
-                        <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolores quos
-                            esse repellendus maxime. Magni doloribus soluta deleniti tempora saepe nihil totam quisquam, ex
-                            similique inventore recusandae id in qui!</p>
+                        <p style="font-size: 15px;">Pada episode kali ini, kita akan mempelajari cara-cara menghitung modus, mean, median, dan
+                        standar deviasi dari sebuat data. Pastikan anda mengikuti video dengan baik.</p>
                     </div>
             
                     <div id="Conten3" class="tabcontent">
