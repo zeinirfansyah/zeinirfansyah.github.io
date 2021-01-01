@@ -27,9 +27,9 @@
   <section id="zein">
     <div class="zein container">
       <div>
-        <h1>Hallo, <span></span></h1>
-        <h1>Selamat datang di <span></span></h1>
-        <h1>ZEN EDUCATION <span></span></h1>
+        <h1>Hallo,</h1>
+        <h1>Selamat datang di</h1>
+        <h1>ZEN EDUCATION<span></span></h1>
         <a href="login.php" type="button" class="cta">Mulai Belajar</a>
       </div>
     </div>

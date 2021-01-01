@@ -18,10 +18,10 @@
 		$ubah = mysqli_query($conn, $query2);
 
 		if ($ubah) {
-			echo "<b><hr> Data berhasil diubah || </b>";
+			echo '<script>alert("Edit data berhasil")</script>';
 		}
 		else {
-			echo "<b><hr> Data gagal diubah || </b>";
+			echo '<script>alert("Edit data gagal")</script>';
 		}
 	}
 ?>

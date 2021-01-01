@@ -164,41 +164,10 @@ p {
 	width: fit-content;
 	font-size: 4rem;
 	position: relative;
-	color: transparent;
-	animation: text_reveal .5s ease forwards;
-	animation-delay: 1s;
-}
-#zein h1:nth-child(1) {
-	animation-delay: 1s;
-}
-#zein h1:nth-child(2) {
-	animation-delay: 2s;
-}
-#zein h1:nth-child(3) {
-	animation: text_reveal_name .5s ease forwards;
-	animation-delay: 3s;
-}
-#zein h1 span {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 0;
-	background-color: #FFC000;
-	animation: text_reveal_box 1s ease;
-	animation-delay: .5s;
-}
-#zein h1:nth-child(1) span {
-	animation-delay: .5s;
-}
-#zein h1:nth-child(2) span {
-	animation-delay: 1.5s;
-}
-#zein h1:nth-child(3) span {
-	animation-delay: 2.5s;
-}
+	color: white;
+	text-shadow:2px 2px #000000 ;
 
-
+}
 
 #about .about {
 	flex-direction: column-reverse;
@@ -233,17 +202,8 @@ p {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	border: 10px solid white;
-}
-#about .col-left .about-img::after {
-	content: '';
-	position: absolute;
-	left: -33px;
-	top: 19px;
-	height: 98%;
-	width: 98%;
-	border: 7px solid #FFC000;
-	z-index: -1;
+	border: 10px solid #FFC000;
+	box-shadow: -10px 10px 10px #0000007c;
 }
 
 #contact .contact {
@@ -328,37 +288,6 @@ p {
 
 
 
-@keyframes hamburger_puls {
-	0% {
-		opacity: 1;
-		transform: scale(1);
-	}
-	100% {
-		opacity: 0;
-		transform: scale(1.4);
-	}
-}
-@keyframes text_reveal_box {
-	50% {
-		width: 100%;
-		left: 0;
-	}
-	100% {
-		width: 0;
-		left: 100%;
-	}
-}
-@keyframes text_reveal {
-	100% {
-		color: white;
-	}
-}
-@keyframes text_reveal_name {
-	100% {
-		color: #FFC000;
-		font-weight: 500;
-	}
-}
 
 
 
@@ -384,13 +313,7 @@ p {
 		height: 400px;
 		padding-left: 60px;
 	}
-	#about .about .col-left .about-img::after {
-		left: -45px;
-		top: 34px;
-		height: 98%;
-		width: 98%;
-		border: 10px solid #FFC000;
-	}
+	
 	#about .col-right {
 		text-align: left;
 		padding: 30px;

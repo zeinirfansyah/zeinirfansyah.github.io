@@ -69,7 +69,7 @@
 		<tr align="center">
 			<td>Graphic Design</td>
 			<td>Adobe Photoshop</td>
-			<td><a href="Photoshop.php" target="blank"><b>Kunjungi Kelas</b></a></td>
+			<td><a href="photoshop.php" target="blank"><b>Kunjungi Kelas</b></a></td>
 		</tr>
 		<tr align="center">
 			<td>Science</td>

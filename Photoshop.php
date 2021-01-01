@@ -130,7 +130,7 @@
             <tr>
                 <td style="width: 360px;">
                     <div class="tab">
-                        <button class="tablinks" onclick="openCity(event, 'Conten1')" id="defaultOpen">3 Dimension Logo Design</button>
+                        <button class="tablinks" onclick="openCity(event, 'Conten1')" id="defaultOpen">3D Logo Design</button>
                         <button class="tablinks" onclick="openCity(event, 'Conten2')">Abstract Wallpaper Design</button>
                         <button class="tablinks" onclick="openCity(event, 'Conten3')">Info Graphic Design</button>
                         <button class="tablinks" onclick="openCity(event, 'Conten4')">Conten4</button>

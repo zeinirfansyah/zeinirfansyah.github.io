@@ -15,10 +15,10 @@
 		$hasil =mysqli_query($conn,$query);
 
 		if ($hasil) {
-			echo "<br> <b>Data berhasil ditambahkan</b>";
+			echo '<script>alert("Input data berhasil")</script>';
 		}
 		else {
-			echo "<br> <b>Gagal menambahkan data</b>";
+			echo '<script>alert("Input data gagal")</script>';
 		}
 	}
 ?>

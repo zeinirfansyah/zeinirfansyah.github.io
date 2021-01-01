@@ -1,9 +1,5 @@
 <?php 
 	include 'koneksi.php';
-
-	$query = "SELECT * FROM mhs";
-
-	$call = mysqli_query($conn, $query);
 ?>
 
 <!DOCTYPE html>
@@ -40,6 +36,12 @@
 		  color: black;
 		}
 
+		.pagging {
+			padding: 10px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
 	</style>
 </head>
 <body>
@@ -51,7 +53,17 @@
 			<th>Pertanyaan</th>
 			<th colspan="2">Action</th>
 		</tr>
-		<?php while ($tampil = mysqli_fetch_array($call)){ ?>
+		<?php
+			$halaman = 3;
+			$page = isset($_GET["halaman"]) ? (int)$_GET["halaman"] : 1;
+			$mulai = ($page>1) ? ($page * $halaman) - $halaman : 0;
+			$result = mysqli_query($conn, "SELECT * FROM mhs");
+			$total = mysqli_num_rows($result);
+			$pages = ceil($total/$halaman);
+			$query = mysqli_query($conn, "SELECT * FROM mhs LIMIT $mulai, $halaman") or die(mysql_error);
+			$no = $mulai+1;
+
+		 while ($tampil = mysqli_fetch_array($query)){ ?>
 		<tr align="center">
 			<td><?= $tampil ['kode']; ?></td>
 			<td><?php echo $tampil ['judul']; ?></td>
@@ -62,6 +74,17 @@
 			<td><a href="delete.php?kode=<?=$tampil['kode'];?>">Delete</a></td>
 		</tr>
 	<?php } ?>
+
+	<tr>
+		<td colspan="5" >
+		<div class="pagging">
+			<?php for ($i=1; $i <= $pages; $i++) { ?>
+			 | <a href="?halaman=<?php echo $i; ?>"><?php echo $i; ?></a>
+			<?php }?>|
+		</div >
+		</td>
+	</tr>
 	</table>
+	
 </body>
 </html>
