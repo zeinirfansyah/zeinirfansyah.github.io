@@ -86,7 +86,7 @@
 				<td><h1 align="center">KONSULTASI</h1></td>
 			</tr>
 			<tr>
-				<td><input type="text" name="kode" placeholder="Kode Video"></td>
+				<td><input type="text" name="kode" placeholder="Kode Konsultasi"></td>
 			</tr>
 			<tr>
 				<td><input type="text" name="judul" placeholder="Judul Konsultasi"></td>
