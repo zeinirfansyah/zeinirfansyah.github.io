@@ -114,6 +114,11 @@ p {
 	padding: 20px;
 	display: block;
 }
+
+#header .nav-list ul li:hover a {
+	color: #FFC000;
+}
+
 #header .nav-list ul a::after {
 	position: absolute;
 	top: 50%;
@@ -129,9 +134,7 @@ p {
 	transform: translate(-50%, -50%) scale(1);
 	letter-spacing: initial;
 }
-#header .nav-list ul li:hover a {
-	color: #FFC000;
-}
+
 
 
 
