@@ -328,7 +328,7 @@ p {
 
     nav .nav-menu ul li {
         font-weight: bold;
-        font-size: smaller;
+        font-size: 11px;
         display: inline-block;
         float: none;
     }
