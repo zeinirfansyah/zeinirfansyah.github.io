@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    font-family: 'Maven Pro', sans-serif;
+
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+}
+
+.logo a {
+    color: #7D5A50;
+}
+
+nav  {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #7d5a501a;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #7D5A50;
+    font-weight: bolder;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.try {
+    margin-left: 200px
+}
+
+a.btn-masuk, a.btn-daftar {
+    background-color: #B4846C;
+    border-radius: 10px;
+    padding: 7px 20px 7px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+a.btn-daftar {
+    margin: 20px 5px 20px 10px;
+}
+
+a.btn-masuk {
+    margin: 20px 5px 20px 70px;
+}
+
+a.btn-masuk:hover , a.btn-daftar:hover {
+    background-color: #805c52;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    min-height: 85vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.kolom {
+    margin: 50px 30px 50px 30px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7D5A50;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #7D5A50;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.btn-gettingstarted {
+    background-color: #B4846C;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-gettingstarted:hover {
+    background-color: #E5B299;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+.benefits {
+    width: 100%;
+    position: relative;
+    display: list-item;
+    list-style: none;
+}
+
+.benefit-card {
+    display: inline-block;
+    flex-wrap: wrap;
+    height: 20%;
+    margin: 0 auto;
+}
+
+.benefit-card img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.benefit-card p {
+    font-size: 14px;
+}
+
+
+
+.center {
+    text-align: center;
+    width: 100%;   
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tutor-card {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.tutor-card img {
+    width: 80%;
+    border-radius: 50px;
+}
+
+.tutor-card p.title-desc {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #7D5A50;
+}
+
+
+.tutor-card p {
+    font-size: 14px;
+}
+
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner-card {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.partner-card img {
+    width: 80%;
+}
+
+
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 991.98px) {
+    .container {
+        min-height: 80vh;
+        width: 100%;
+        display: fle;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home img {
+        display: none;
+    }
+
+    .home .kolom .deskripsi {
+        font-size: 28px;
+    }
+
+    .home .kolom h2 {
+        font-size: 50px;
+    }
+
+    .home .kolom p {
+        font-size: 18px;
+    }
+
+    .courses img {
+        display: none;
+    }
+
+    .courses .kolom .deskripsi {
+        font-size: 18px;
+    }
+
+    .courses .kolom h2 {
+        font-size: 30px;
+    }
+
+    .courses .kolom p {
+        font-size: 14px;
+    }
+    
+
+    .tutor-card {
+        width: 50%;
+        font-size: smaller;
+    }
+
+
+    .tutor-card p.title-desc{
+        display: flex;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .tutor-card p {
+        display: none;
+    }
+
+    a.btn-gettingstarted {
+        display: block;
+        text-align: center;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: none;
+    }
+
+    nav .nav-menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .nav-menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 100px;
+        background-color: #B4846C;
+        border-radius: 20px;
+        
+    }
+
+    nav .nav-menu ul li {
+        font-weight: bold;
+        font-size: smaller;
+        display: inline-block;
+        float: none;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+    nav ul li a:hover {
+        color: wheat;
+        text-decoration: underline;
+    }
+
+    nav .nav-menu ul li .btn-masuk, nav .nav-menu ul li .btn-daftar {
+        display: none;
+    }
+
+    section {
+        display: block;
+    }
+    
+    section h2{
+        font-size: 28px;
+    }
+
+    .kolom .deskripsi{
+        font-size: 15px;
+    }
+
+
+
+
+    .partner-card {
+        width: 20%;
+    }
+
+    .partners .center .kolom h2{
+        font-size: 22px;
+    }
+
+    .partners .center .kolom p{
+        display: none;
+    }
+
+    .footer {
+        font-size: 8px;
+        width: 90%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    
+    .footer-section {
+        width: 20%;
+        margin: 0 auto;
+    }
+}

@@ -101,7 +101,7 @@ a:hover{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background: #FFC000;
+	background: #805c52;
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
@@ -135,7 +135,7 @@ a:hover{
   }
   
   .navbar a:hover {
-	color: #FFC000
+	color: #805c52
   }
 
   .navbar {
