@@ -23,8 +23,8 @@
                     <li><a href="#tutors">Mentor</a></li>
                     <li><a href="#partners">Partners</a></li>
                     <li><a href="#contact">Contacts</a></li>
-                    <li><a href="#trynow" class="btn-masuk">Masuk</a></li>
-                    <li><a href="#trynow" class="btn-daftar">Daftar</a></li>
+                    <li><a href="login.php" class="btn-masuk">Masuk</a></li>
+                    <li><a href="login.php" class="btn-daftar">Daftar</a></li>
                 </ul>
             </div>
         </div>
@@ -38,7 +38,7 @@
                 <p>Belajar dari mentor yang berpengalaman
                     di bidangnya dan mendapatkan sertifikat resmi
                     untuk membangun karir masa depan</p>
-                <p><a href="#home" class="btn-gettingstarted">Getting Started</a></p>
+                <p><a href="login.php" class="btn-gettingstarted">Getting Started</a></p>
             </div>
             <img src="https://image.freepik.com/free-vector/developer-writing-code-website-laptop-computer-designer-flat-vector-illustration-coding-programming_74855-13055.jpg"
                 alt="">
