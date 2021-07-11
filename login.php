@@ -63,6 +63,11 @@
             </div>
             <div class="nav-menu">
                 <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.php">Benefits</a></li>
+                    <li><a href="index.php">Mentor</a></li>
+                    <li><a href="index.php">Partners</a></li>
+                    <li><a href="index.php">Contacts</a></li>
                     <li><a href="index.php" class="btn-back">Kembali</a></li>
                 </ul>
             </div>
