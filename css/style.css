@@ -337,7 +337,7 @@ p {
         text-decoration: underline;
     }
 
-    nav .nav-menu ul li .btn-masuk, nav .nav-menu ul li .btn-daftar {
+    nav .nav-menu ul li .btn-masuk, nav .nav-menu ul li .btn-daftar, nav .nav-menu ul li .footer-contact {
         display: none;
     }
 
