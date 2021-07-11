@@ -3,6 +3,7 @@
 <head>
 	<title>Login Zed Ed</title>
 	<link rel="stylesheet" type="text/css" href="css/style_login.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
 	<script>
@@ -55,9 +56,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div class="navbar">
-		<a href="index.php"><h2>Kembali</h2></a>
-	</div>
+<nav>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="index.php">Zen Academy</a>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="index.php" class="btn-back">Kembali</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 	<img class="GambarBackground" src="img/GambarBackground.png">
 	<div class="container">
@@ -67,7 +77,7 @@
 		<div class="login">
 			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>" class="form">
 				<img src="img/avatar.png">
-				<h2 class="title">Hallo Pejuang!</h2>
+				<h2 class="title">Selamat Datang</h2>
            		<div class="div-input username_input">
 				   <span class="error"> <?php echo $usernameErr; ?></span>
            		   <div class="div">
@@ -83,7 +93,7 @@
 					<div class="garisbawah"></div>
             	</div>
             	<a href="http://instagram.com/zeinirfansyah">Minta kode akses (via DM IG)</a>
-				<input class="btn" id="submit" type="submit" name="submit" value="LOGIN">
+				<input class="btn-login" id="submit" type="submit" name="submit" value="LOGIN">
 				<span class="error"> <?php echo $Error; ?></span>
             </form>
         </div>

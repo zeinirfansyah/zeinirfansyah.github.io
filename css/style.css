@@ -20,7 +20,6 @@ body {
 
 .logo {
     font-family: 'Maven Pro', sans-serif;
-
     font-size: 25px;
     font-weight: bold;
     float: left;
@@ -70,10 +69,6 @@ nav ul li a:hover {
     float: right;
 }
 
-.try {
-    margin-left: 200px
-}
-
 a.btn-masuk, a.btn-daftar {
     background-color: #B4846C;
     border-radius: 10px;
@@ -90,9 +85,17 @@ a.btn-masuk {
     margin: 20px 5px 20px 70px;
 }
 
-a.btn-masuk:hover , a.btn-daftar:hover {
-    background-color: #805c52;
-    color: white;
+a.btn-back {
+    border-radius: 20px;
+    margin: 0px 0px 0px 70px;
+    font-weight: bold;
+    font-size: larger;
+    color: #7D5A50;
+}
+
+a.btn-masuk:hover , a.btn-daftar:hover, a.btn-back:hover {
+    background-color: #805c522b;
+    color: #7D5A50;
     text-decoration: none;
 }
 
@@ -341,7 +344,7 @@ p {
         text-decoration: underline;
     }
 
-    nav .nav-menu ul li .btn-masuk, nav .nav-menu ul li .btn-daftar {
+    nav .nav-menu ul li .btn-masuk, nav .nav-menu ul li .btn-daftar, .nav-menu ul li .btn-back {
         display: none;
     }
 
