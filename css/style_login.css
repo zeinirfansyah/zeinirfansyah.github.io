@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Maven Pro', sans-serif;
+	font-family: 'Maven Pro', sans-serif;
     overflow: hidden;
 }
 
@@ -19,7 +19,7 @@ body{
 
 .container{
     width: 100vw;
-    height: 85vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap :7rem;
@@ -54,7 +54,7 @@ form{
 .login h2{
 	margin: 15px 0;
 	color: #333;
-	text-transform: uppercase;
+
 	font-size: 1.5rem;
 }
 
@@ -94,79 +94,7 @@ a:hover{
 	color: #e73002;
 }
 
-.wrapper {
-    width: 1100px;
-    margin: auto;
-    position: relative;
-}
-
-.logo {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    float: left;
-}
-
-.logo a {
-    color: #7D5A50;
-}
-
-nav  {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    line-height: 80px;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    background-color: #ffffff;
-    z-index: 1;
-    border-bottom: 1px solid #7d5a501a;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    color: black;
-    text-align: center;
-    padding: 0px 16px 0px 16px;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #7D5A50;
-    font-weight: bolder;
-}
-
-.nav-menu {
-    float: right;
-}
-
-
-a.btn-back {
-    border-radius: 20px;
-    margin: 0px 0px 0px 70px;
-    font-weight: bold;
-    font-size: larger;
-    color: #7D5A50;
-}
-
-a.btn-back:hover {
-    background-color: #805c522b;
-    color: #7D5A50;
-    text-decoration: none;
-}
-
-.btn-login{
+.btn{
 	display: block;
 	width: 100%;
 	height: 50px;
@@ -183,59 +111,38 @@ a.btn-back:hover {
 	cursor: pointer;
 	transition: .5s;
 }
-
-.btn-login:hover{
-	background-color: #7D5A50;
+.btn:hover{
+	background-position: right;
 }
 
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border-bottom: 1px solid rgba(88, 88, 88, 0.19);
+  }
+  
+.navbar a {
+	margin-right: 50px;
+	float: right;
+	display: block;
+	color: #7D5A50;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .navbar a:hover {
+	color: #B4846C
+  }
 
+  .navbar {
+	  float: right;
+	  margin-right: 20px;
+  }
 @media screen and (max-width: 1050px){
-	.wrapper {
-        width: 90%;
-    }
-
-    .logo a {
-        display: none;
-    }
-
-    nav .nav-menu {
-        width: 100%;
-        margin: 0;
-    }
-
-    nav .nav-menu ul {
-        text-align: center;
-        margin: auto;
-        line-height: 100px;
-        border-radius: 20px;
-        
-    }
-
-    nav .nav-menu ul li {
-        font-weight: bold;
-        font-size: 11px;
-        display: inline-block;
-        float: none;
-    }
-
-	a.btn-back {
-		border-radius: 20px;
-		margin: 0px 0px 0px 250px;
-		font-weight: bold;
-		font-size: larger;
-		color: #7D5A50;
-	}
-
-    nav ul li a {
-        color: #7D5A50;
-    }
-    nav ul li a:hover {
-        color: wheat;
-        text-decoration: underline;
-    }
-
-
-	
 	.container{
 		grid-gap: 5rem;
 	}
@@ -247,8 +154,8 @@ a.btn-back:hover {
 	}
 
 	.login h2{
-        font-size: 2.4rem;
-        margin: 8px 0;
+        font-size: 1.8rem;
+        margin: 16px 0;
 	}
 
 	.img img{
