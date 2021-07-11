@@ -22,7 +22,7 @@
                     <li><a href="#benefits">Benefits</a></li>
                     <li><a href="#tutors">Mentor</a></li>
                     <li><a href="#partners">Partners</a></li>
-                    <li><a href="#contact">Contacts</a></li>
+                    <li><a href="#contact" class="footer-contact">Contacts</a></li>
                     <li><a href="login.php" class="btn-masuk">Masuk</a></li>
                     <li><a href="login.php" class="btn-daftar">Daftar</a></li>
                 </ul>
