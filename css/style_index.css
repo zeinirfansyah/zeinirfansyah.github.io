@@ -39,7 +39,7 @@ p {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid #FFC000;
+	border: 2px solid #B4846C;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
@@ -49,7 +49,7 @@ p {
 }
 .cta:hover {
 	color: white;
-	background-color: #FFC000;
+	background-color: #B4846C;
 }
 
 .brand h1 {
@@ -59,7 +59,7 @@ p {
 }
 
 .brand h1 span {
-	color: #FFC000;
+	color: #B4846C;
 }
 
 #header {
@@ -116,7 +116,7 @@ p {
 }
 
 #header .nav-list ul li:hover a {
-	color: #FFC000;
+	color: #B4846C;
 }
 
 #header .nav-list ul a::after {
@@ -205,7 +205,7 @@ p {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	border: 10px solid #FFC000;
+	border: 10px solid #B4846C;
 	box-shadow: -10px 10px 10px #0000007c;
 }
 
