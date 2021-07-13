@@ -44,7 +44,7 @@
               Halaman yang kamu cari sedang dalam perbaikan. <br class="sm:block hidden"> Lebih baik kamu balik ke halaman sebelumnya aja.
             </p>
             <div class="flex justify-center">
-              <a href="dashboard.php">
+              <a href="Dashboard.php">
                 <button class="btn-back inline-flex font-semibold text-white text-lg leading-7 py-4 px-6 rounded-xl focus:outline-none hover:shadow-lg">
                   Kembali ke Zen Academy
                   </button>
