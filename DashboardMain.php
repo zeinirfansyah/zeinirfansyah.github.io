@@ -81,7 +81,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #B4846C 0%, #ffc400 100%);
+    background-image: linear-gradient(60deg, #B4846C 0%, #ccaa98 100%);
     opacity: .9;
     z-index: -1;
 }
