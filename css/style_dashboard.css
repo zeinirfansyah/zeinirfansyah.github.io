@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+
+.logo {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+}
+
+.logo a {
+    color: #7D5A50;
+}
+
+nav  {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #7d5a501a;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #7D5A50;
+    font-weight: bolder;
+}
+
+.nav-menu {
+    float: right;
+}
+
+a.btn-keluar {
+    padding: 7px 20px 7px 20px;
+    color: #7D5A50;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a.btn-keluar {
+    margin: 20px 5px 20px 70px;
+}
+
+
+a.btn-keluar:hover {
+    color: #7D5A50;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.container {
+    min-height: 85vh;
+	width: 100%;
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+
+.kolom {
+    margin: 20px 30px 20px 30px;
+}
+
+.kolom .deskripsi {
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #7D5A50;
+}
+
+.kolom p.title-desc {
+    font-size: 14px;
+}
+
+
+.center {
+    text-align: center;
+    width: 100%;   
+}
+
+.courses {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #7d5a5028;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.course-card {
+    border-radius: 20px;
+    background-color: transparent;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    width: 30%;
+    margin: 10px auto;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.074);
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .course-card-inner {
+    border: 1px solid #7d5a5045;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .course-card:hover .course-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .course-card-front, .course-card-back {
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .course-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .course-card-back {
+    background-color: #7D5A50;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .course-card-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+ .course-card-back h1 {
+    text-align: left;
+     margin: 20px 20px 20px 20px;
+}
+
+.course-card-back .tutor-course {
+    font-size: 14px;
+    font-weight:  bold;
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+}
+
+.course-card-back .title-desc {
+    text-align: left;
+    font-size: 12px;
+    margin: 20px 20px 20px 20px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991.98px) {
+
+    .courses {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .course-card {
+        background-color: transparent;
+        height: 200px;
+        border: 1px solid #f1f1f1;
+        width: 90%;
+        margin: 10px auto;
+        border-radius: 20px;
+        box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.074);
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      }
+    .course-card-front {
+        display: none;
+    }
+
+    .course-card-back {
+        border: 1px solid #7D5A50;
+        border-radius: 20px;
+        background-color: #7d5a501c;
+        color: #7D5A50;
+        transform: rotateY(0);
+      }
+
+      .course-card:hover .course-card-inner {
+        transform: rotateY(20deg);
+        border-radius: 1px;
+      }
+
+    .container {
+        min-height: 80vh;
+        width: 100%;
+        display: fle;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    a.btn-keluar {
+       font-size: 12px;
+    }
+
+    nav .nav-menu ul li .menu {
+        display: none;
+    }
+
+    .footer {
+        font-size: 8px;
+        width: 90%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    
+    .footer-section {
+        width: 20%;
+        margin: 0 auto;
+    }
+}

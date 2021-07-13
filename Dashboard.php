@@ -1,149 +1,227 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: "Lato", sans-serif;
-}
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-html {
-    font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
-    scroll-behavior: smooth;
-}
-a {
-    text-decoration: none;
-    color: #7698cf;
-    font-size: 20px
-}
-p {
-    color: white;
-    font-size: 1.4rem;
-    margin-top: 5px;
-    line-height: 2.5rem;
-    font-weight: 300;
-    letter-spacing: .05rem;
-}
-
-.sidenav {
-  height: 100%;
-  width: 25%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #f1f1f1;
-  overflow-x: hidden;
-  padding-top: 30px;
-  margin-top: 58px;
-}
-
-.sidenav h1 {
-  margin-top: 20px;
-  font-size: 30px;
-}
-
-.sidenav a {
-  display: block;
-  background-color: inherit;
-  color: black;
-  padding: 22px 16px;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  cursor: pointer;
-  transition: 0.3s;
-  font-size: 20px;
-}
-
-.sidenav a:hover {
-  background-color: #B4846C;
-}
-
-iframe {
-  margin-left: 25%; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.568);
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  color: #B4846C
-}
-
-.navright {
-  float: right;
-}
-
-.profil{
-  text-align: center;
-  margin: 0px;
-  padding-bottom: 50px;
-  }
-
-.profil img {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_dashboard.css">
+    <title>Zen Academy</title>
 </head>
+
 <body>
-<div class="navbar">
-  <a href="Dashboard.php"><h2>Zen Education</h2></a>
-  <div class="navright">
-    <a href="index.php"><h2>LOGOUT</h2></a>
-  </div>
-</div>
 
-<div class="sidenav">
-    <div class="profil">
-      <img src="img/avatar.png" alt="">
-      <h1>Welcome to Zen Ed!</h1>
+    <!-- NAVIGASI -->
+    <nav>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="dashboard.php">Zen Academy</a>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="dashboard.php" class="menu">Courses</a></li>
+                    <li><a href="daily_tips.php" class="menu">Daily Tips</a></li>
+                    <li><a href="resources.php" class="menu">Resources</a></li>
+                    <li><a href="index.php" class="btn-keluar">Keluar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <!-- Course Card -->
+        <section class="sec1-page container" id="home">
+            <div class="kolom">
+                <h2 class="deskripsi">Programming Courses</h2>
+                <p class="title-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, excepturi
+                    mollitia delectus sit a nostrum. Repudiandae quis ut saepe architecto.</p>
+            </div>
+            <div class="center">
+                <div class="courses">
+                    <div class="course-card">
+                        <div class="course-card-inner">
+                           <a href="youtube.com">
+                            <div class="course-card-front">
+                                <img src="img/flutter-card.png" alt="Avatar">
+                            </div>
+                            <div class="course-card-back">
+                                <h1 class="title-course">Flutter Fundamental</h1>
+                                <p class="tutor-course">Kuldii Project</p>
+                                <p class="title-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis commodi placeat ducimus. Odio, soluta dolorum?</p>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+    
+                    <div class="course-card">
+                        <div class="course-card-inner">
+                            <a href="emptyPage.php">
+                                <div class="course-card-front">
+                                    <img src="img/react-card.png" alt="Avatar">
+                                </div>
+                                <div class="course-card-back">
+                                    <h1 class="title-course">React Js</h1>
+                                    <p class="tutor-course">Prawito Hudoro</p>
+                                    <p class="title-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis commodi placeat ducimus. Odio, soluta dolorum?</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-card-inner">
+                            <a href="emptyPage.php">
+                                <div class="course-card-front">
+                                    <img src="img/java-card.png" alt="Avatar">
+                                </div>
+                                <div class="course-card-back">
+                                    <h1 class="title-course">Java Fundamental</h1>
+                                    <p class="tutor-course">Kelas Terbuka</p>
+                                    <p class="title-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis commodi placeat ducimus. Odio, soluta dolorum?</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-card-inner">
+                            <a href="emptyPage.php">
+                                <div class="course-card-front">
+                                    <img src="img/python-card.png" alt="Avatar">
+                                </div>
+                                <div class="course-card-back">
+                                    <h1 class="title-course">Python Fundamental</h1>
+                                    <p class="tutor-course">Kelas Terbuka</p>
+                                    <p class="title-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis commodi placeat ducimus. Odio, soluta dolorum?</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-card-inner">
+                            <a href="emptyPage.php">
+                                <div class="course-card-front">
+                                    <img src="img/javascript-card.png" alt="Avatar">
+                                </div>
+                                <div class="course-card-back">
+                                    <h1 class="title-course">Javascript Fundamental</h1>
+                                    <p class="tutor-course">Programmer Zaman Now</p>
+                                    <p class="title-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis commodi placeat ducimus. Odio, soluta dolorum?</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-card-inner">
+                            <a href="emptyPage.php">
+                                <div class="course-card-front">
+                                    <img src="img/cpp-card.png" alt="Avatar">
+                                </div>
+                                <div class="course-card-back">
+                                    <h1 class="title-course">C++ Fundamental</h1>
+                                    <p class="tutor-course">Kelas Terbuka</p>
+                                    <p class="title-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis commodi placeat ducimus. Odio, soluta dolorum?</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- <section class="sec1-page container" id="home">
+            <div class="kolom">
+                <h2 class="deskripsi">Premium Courses</h2>
+                <p class="title-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, excepturi
+                    mollitia delectus sit a nostrum. Repudiandae quis ut saepe architecto.</p>
+            </div>
+            <div class="center">
+                <div class="courses">
+                    <div class="course-card">
+                        <div class="course-card-inner">
+                            <div class="course-card-front">
+                                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="course-card-back">
+                                <h1>John Doe</h1>
+                                <p>Architect & Engineer</p>
+                                <p>We love that guy</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="course-card">
+                        <div class="course-card-inner">
+                            <div class="course-card-front">
+                                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="course-card-back">
+                                <h1>John Doe</h1>
+                                <p>Architect & Engineer</p>
+                                <p>We love that guy</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="course-card">
+                        <div class="course-card-inner">
+                            <div class="course-card-front">
+                                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="course-card-back">
+                                <h1>John Doe</h1>
+                                <p>Architect & Engineer</p>
+                                <p>We love that guy</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="course-card">
+                        <div class="course-card-inner">
+                            <div class="course-card-front">
+                                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="course-card-back">
+                                <h1>John Doe</h1>
+                                <p>Architect & Engineer</p>
+                                <p>We love that guy</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="course-card">
+                        <div class="course-card-inner">
+                            <div class="course-card-front">
+                                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="course-card-back">
+                                <h1>John Doe</h1>
+                                <p>Architect & Engineer</p>
+                                <p>We love that guy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-card-inner">
+                            <div class="course-card-front">
+                                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="course-card-back">
+                                <h1>John Doe</h1>
+                                <p>Architect & Engineer</p>
+                                <p>We love that guy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section> -->
     </div>
-    <hr>
-    <a href="DashboardMain.php" target="frameMain" id="defaultOpen">Dashboard</a>
-    <hr>
-    <a href="Contact.php" target="frameMain">Contact</a>
-    <hr>
-    <a href="About.php" target="frameMain">About</a>
-    <hr>
-</div>
-<iframe src="" name="frameMain" frameborder="0" style="position: fixed; height: 100%; width: 75%; border: none; margin-top: 60px;"></iframe>
-
-<script>
-document.getElementById("defaultOpen").click();
-</script>
-
 </body>
-</html> 
+
+</html>
