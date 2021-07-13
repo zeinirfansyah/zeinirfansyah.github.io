@@ -35,7 +35,7 @@
         }
 
         .navbar a:hover {
-            color: #FFC000
+            color: #B4846C
         }
 
         .navbar {
@@ -85,7 +85,7 @@
 
 
         .tab button.active {
-            background-color: #FFC000;
+            background-color: #B4846C;
         }
 
 

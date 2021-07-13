@@ -70,7 +70,7 @@
 		}
 
 		.button {
-		  background-color: #FFC000;
+		  background-color: #B4846C;
 		  border: none;
 		  color: black;
 		  padding: 12px 30px;

@@ -64,7 +64,7 @@ p {
 }
 
 .sidenav a:hover {
-  background-color: #FFC000;
+  background-color: #B4846C;
 }
 
 iframe {
@@ -97,7 +97,7 @@ iframe {
 }
 
 .navbar a:hover {
-  color: #FFC000
+  color: #B4846C
 }
 
 .navright {
