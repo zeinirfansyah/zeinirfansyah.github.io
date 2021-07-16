@@ -3,7 +3,7 @@
     <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Elements by BuildWith Angga</title>
+      <title>Not found</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" />
       <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer ></script> 
     </head>
@@ -38,7 +38,7 @@
           <img class="img" src="img/404.png" alt="">                    
           <div class="text-center w-full">
             <h1 class="title-text text-3xl mb-5 font-semibold">
-              Opss! Halaman Tidak Ditemukan
+              Opss! Kelas Sedang Diperbaiki
             </h1>
             <p class="caption-text mb-16 tracking-wide leading-7">
               Halaman yang kamu cari sedang dalam perbaikan. <br class="sm:block hidden"> Lebih baik kamu balik ke halaman sebelumnya aja.
