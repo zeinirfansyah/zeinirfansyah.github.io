@@ -40,7 +40,7 @@
                 <div class="courses">
                     <div class="course-card">
                         <div class="course-card-inner">
-                           <a href="emptyPage.php">
+                           <a href="vid-flutter.php">
                             <div class="course-card-front">
                                 <img src="img/flutter-card.png" alt="Avatar">
                             </div>

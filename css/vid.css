@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px 7%;
+    padding-bottom: 70px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+
+.logo {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+}
+
+.logo a {
+    color: #7D5A50;
+}
+
+nav  {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #7d5a501a;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #7D5A50;
+    font-weight: bolder;
+}
+
+.nav-menu {
+    float: right;
+}
+
+a.btn-keluar {
+    padding: 7px 20px 7px 20px;
+    color: #7D5A50;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a.btn-keluar {
+    margin: 20px 5px 20px 70px;
+}
+
+
+a.btn-keluar:hover {
+    color: #7D5A50;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.container-vid {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    border-radius: 20px;
+    border: 2px solid rgba(51, 51, 51, 0.17);
+    box-shadow: 0 10px 15px #7d5a505a;
+    background: #fff;
+}
+
+.container-vid .video-links-container {
+    flex: content;
+    border: 1px solid #ccc;
+    background-color: #ffffffec;
+    height: 500px;
+    overflow-y: scroll;
+    border-radius: 20px;
+}
+
+.container-vid .video-container {
+    margin: 0 auto;
+    flex: content;
+    height: 200px;
+}
+
+.tabcontent {
+    margin:30px auto;
+    background-color: #ffffffec;
+    padding: 0px 12px;
+    width: 720px;
+    height: 360px;
+}
+
+.tabcontent h1 {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.container-vid .video-container iframe {
+    border-bottom: 1px solid black;
+    margin: 20px auto;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container-vid .video-links-container .video-links {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+.container-vid .video-links-container .video-links:nth-child(odd) {
+    background: #eee;
+}
+
+.active,
+.container-vid .video-links-container .video-links:hover {
+    background: #7D5A50;
+    color: #fff;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 991.98px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: linear-gradient(#eee 50%, #ccc 50.1%);
+        padding: 0px;
+        padding-bottom: 0px;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    a.btn-keluar {
+       font-size: 12px;
+    }
+    nav {
+        border-radius: 20px;
+    }
+
+    nav .nav-menu ul li .menu {
+        display: none;
+    }
+
+    .container-vid {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .container-vid .video-container {
+        width: 100%;
+    }
+
+    .tabcontent {
+        margin: 0px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .tabcontent h1 {
+        font-size: 16px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+
+    .container-vid .video-links-container {
+        margin-top: 80px;
+        flex: 1 1 400px;
+        height: 400px;
+        overflow-y: scroll;
+    }
+}
