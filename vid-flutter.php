@@ -14,14 +14,14 @@
     <nav>
         <div class="wrapper">
             <div class="logo">
-                <a href="dashboard.php">Zen Academy</a>
+                <a href="Dashboard.php">Zen Academy</a>
             </div>
             <div class="nav-menu">
                 <ul>
                     <li><a href="emptyPage2.php" class="menu">Courses</a></li>
                     <li><a href="emptyPage2.php" class="menu">Daily Tips</a></li>
                     <li><a href="emptyPage2.php" class="menu">Resources</a></li>
-                    <li><a href="dashboard.php" class="btn-keluar">Kembali</a></li>
+                    <li><a href="Dashboard.php" class="btn-keluar">Kembali</a></li>
                 </ul>
             </div>
         </div>
