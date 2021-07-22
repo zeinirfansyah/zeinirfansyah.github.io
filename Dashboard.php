@@ -70,13 +70,13 @@
 
                     <div class="course-card">
                         <div class="course-card-inner">
-                            <a href="emptyPage.php">
+                            <a href="vid-excel.php">
                                 <div class="course-card-front">
-                                    <img src="img/java-card.png" alt="Avatar">
+                                    <img src="img/excel-card.png" alt="Avatar">
                                 </div>
                                 <div class="course-card-back">
-                                    <h1 class="title-course">Java Fundamental</h1>
-                                    <p class="tutor-course">Kelas Terbuka</p>
+                                    <h1 class="title-course">Excel Fundamental</h1>
+                                    <p class="tutor-course">FreeTutorial-IDN</p>
                                     <p class="title-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis commodi placeat ducimus. Odio, soluta dolorum?</p>
                                 </div>
                             </a>
